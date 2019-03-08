@@ -4,8 +4,9 @@
 #定义一个list
 print('---------------list有序列表--------------')
 list = [1,2,3,4,5,6]
-print(list)
+print(len(list))
 #foreach输出
+
 for item in list:
 	print(item);
 #while循环
@@ -40,6 +41,8 @@ print('-------------------tuple元组，一旦初始化不能修改-------------
 #定义
 tuple = ('张三','李四','王五');
 for item in tuple:
+	if(item == '张三'):
+		break
 	print(item);
 #元组没有insert，pop方法
 #定义空的
@@ -63,3 +66,7 @@ print(L[0][0])
 print(L[1][1])
 # 打印Lisa:
 print(L[2][2])
+
+k = [1]
+if(k != []):
+	print('jjje')
